@@ -82,13 +82,13 @@
     background-color: #333333;
     top: 0;
     left: 0;
-    opacity: .6;
+    opacity: .6; /* A propriedade define o nível de opacidade de um elemento. */
     background-size: contain;
-    filter: blur(10px);
+    filter: blur(10px); /* Aplica um efeito de desfoque à imagem. Um valor maior criará mais desfoque. */
 }
 
 #lista > ol > li:target > .clip > a.close {
-    position: absolute;
+    position: absolute;              
     right: -.6rem;
     top: -.6rem;
     text-decoration: none;

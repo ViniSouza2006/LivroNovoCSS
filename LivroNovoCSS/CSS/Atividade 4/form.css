@@ -14,7 +14,7 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:5px;
+    gap:5px; /* Use a propriedade gap para especificar o tamanho da lacuna entre as linhas e as colunas de um elemento. */
 }
 
 label, input, select, textarea, button {
